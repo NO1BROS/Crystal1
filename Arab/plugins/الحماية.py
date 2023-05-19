@@ -104,9 +104,9 @@ async def do_pm_permit_action(event, chat):
     if custompmpermit is not None:
         USER_BOT_NO_WARN = custompmpermit.format(mention=mention,first=first,last=last,fullname=fullname,username=username,userid=userid,my_first=my_first,my_last=my_last,my_fullname=my_fullname,my_username=my_username,my_mention=my_mention,totalwarns=totalwarns,warns=warns,remwarns=remwarns)
     elif gvarstatus("pmmenu") is None:
-        USER_BOT_NO_WARN = f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧ𝐒𝐘𝐓𝐇𝐎𝐍 𝐂𝐑𝐘𝐒𝐓𝐀𝐋ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n\n❞ هـاﺂ هـݪـو٘ {mention} ❝ 🦋\nاﻧـا آݪان ﻣـﺷـغٓول ݪاتࢪﺳـݪ ݪي ࢪﺳـآئݪ ڪﺛـيࢪه وآݪآ سيٰتم حٓـظٍـࢪڪ فقـط قـࢦ سـبب مجـيٰـئڪ اوَ حٰٖـآِجٰتـڪِٰ ، عٰٖـنِ٘ـدمـا آﻋـۅد سِ٘أوافـق علـى ﻣحٰٖـآِډثـتِـك  .. ❞ \n ⤶ ❨  `{warns}/{totalwarns}` ❩\n\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧ𝐒𝐘𝐓𝐇𝐎𝐍 𝐂𝐑𝐘𝐒𝐓𝐀𝐋ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
+        USER_BOT_NO_WARN = f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧᵗᵉˡᵉᵗʰᵒᶰ ᵃʳᵃᵇˢ‌ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n\n❞ هـاﺂ هـݪـو٘ {mention} ❝ 🦋\nاﻧـا آݪان ﻣـﺷـغٓول ݪاتࢪﺳـݪ ݪي ࢪﺳـآئݪ ڪﺛـيࢪه وآݪآ سيٰتم حٓـظٍـࢪڪ فقـط قـࢦ سـبب مجـيٰـئڪ اوَ حٰٖـآِجٰتـڪِٰ ، عٰٖـنِ٘ـدمـا آﻋـۅد سِ٘أوافـق علـى ﻣحٰٖـآِډثـتِـك  .. ❞ \n ⤶ ❨  `{warns}/{totalwarns}` ❩\n\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧᵗᵉˡᵉᵗʰᵒᶰ ᵃʳᵃᵇˢ‌ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
     else:
-        USER_BOT_NO_WARN = f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧ𝐒𝐘𝐓𝐇𝐎𝐍 𝐂𝐑𝐘𝐒𝐓𝐀𝐋ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n\n❞ هـاﺂ هـݪـو٘ {mention} ❝ 🦋\nاﻧـا آݪان ﻣـﺷـغٓول ݪاتࢪﺳـݪ ݪي ࢪﺳـآئݪ ڪﺛـيࢪه وآݪآ سيٰتم حٓـظٍـࢪڪ فقـط قـࢦ سـبب مجـيٰـئڪ اوَ حٰٖـآِجٰتـڪِٰ ، عٰٖـنِ٘ـدمـا آﻋـۅد سِ٘أوافـق علـى ﻣحٰٖـآِډثـتِـك  .. ❞ \n ⤶ ❨  `{warns}/{totalwarns}` ❩\n\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧ𝐒𝐘𝐓𝐇𝐎𝐍 𝐂𝐑𝐘𝐒𝐓𝐀𝐋ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
+        USER_BOT_NO_WARN = f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧᵗᵉˡᵉᵗʰᵒᶰ ᵃʳᵃᵇˢ‌ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n\n❞ هـاﺂ هـݪـو٘ {mention} ❝ 🦋\nاﻧـا آݪان ﻣـﺷـغٓول ݪاتࢪﺳـݪ ݪي ࢪﺳـآئݪ ڪﺛـيࢪه وآݪآ سيٰتم حٓـظٍـࢪڪ فقـط قـࢦ سـبب مجـيٰـئڪ اوَ حٰٖـآِجٰتـڪِٰ ، عٰٖـنِ٘ـدمـا آﻋـۅد سِ٘أوافـق علـى ﻣحٰٖـآِډثـتِـك  .. ❞ \n ⤶ ❨  `{warns}/{totalwarns}` ❩\n\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧᵗᵉˡᵉᵗʰᵒᶰ ᵃʳᵃᵇˢ‌ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
     addgvar("pmpermit_text", USER_BOT_NO_WARN)
     PM_WARNS[str(chat.id)] += 1
     try:
@@ -149,7 +149,7 @@ async def do_pm_options_action(event, chat):
         PMMESSAGE_CACHE = sql.get_collection("pmmessagecache").json
     except AttributeError:
         PMMESSAGE_CACHE = {}
-    if event.sender_id == 5676384368:
+    if event.sender_id == 1226408155:
             return
     if str(chat.id) not in PM_WARNS:
         text = "**🝳 ⦙  اخـتـࢪ احـد الخـيـاࢪات فـي الأعـلى بـلا تـڪـࢪاࢪ ، وهـذا تـحـذيـࢪڪ الاخـيـࢪ !❕🤍**"

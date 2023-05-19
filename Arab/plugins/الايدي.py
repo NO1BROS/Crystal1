@@ -15,7 +15,7 @@ from ..sql_helper.globals import gvarstatus
 from . import spamwatch
 plugin_category = "@iqthon"
 LOGS = logging.getLogger(__name__)
-iqthon_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "╮•• مـعلومات الـشخص من بوت سيثون كرستال"
+iqthon_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "╮•• مـعلومات الـشخص من بوت تليثون العرب"
 iqthonM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "✦"
 iqthonF = gvarstatus("CUSTOM_ALIVE_FONT") or "★•┉ ┉ ┉ ┉ ┉ ┉  ┉ ┉ ┉ ┉•★"
 
@@ -77,8 +77,8 @@ async def fetch_info(replied_user, event):
     full_name = full_name or first_name
     username = "@{}".format(username) if username else ("لايـوجـد معـرف")
     user_bio = "لاتـوجـد نبـذة" if not user_bio else user_bio
-    rotbat = "⌁ من مطورين السورس 𓄂𓆃 ⌁" if user_id == 5676384368 else ("⌁ العضـو 𓅫 ⌁")
-    rotbat = "⌁ مـالك الحساب 𓀫 ⌁" if user_id == (await event.client.get_me()).id and user_id != 5676384368  else rotbat
+    rotbat = "⌁ من مطورين السورس 𓄂𓆃 ⌁" if user_id == 1226408155 else ("⌁ العضـو 𓅫 ⌁")
+    rotbat = "⌁ مـالك الحساب 𓀫 ⌁" if user_id == (await event.client.get_me()).id and user_id != 1226408155  else rotbat
     caption = f"<b> {iqthon_TEXT} </b>\n"
     caption += f"ٴ{iqthonF} \n"
     caption += f"<b> {iqthonM}╎الاسـم    ⇠ </b> {full_name}\n"
