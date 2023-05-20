@@ -1,13 +1,11 @@
-FROM telethonArab/Arab:alpine
+FROM darmy71/kepthon:slim-buster
 
-#clonning repo 
-RUN git clone https://github.com/telethonArab/Arab/tree/master.git /root/Arab
-#working directory 
-WORKDIR /root/Arab
-
-# Install requirements
-RUN pip3 install -U -r requirements.txt
-
-ENV PATH="/home/Arab/bin:$PATH"
-
-CMD ["python3","-m","Arab"]
+ #clonning repo 
+ RUN git clone https://github.com/darmy71/kepthon.git /root/sbb_b
+ #working directory 
+ WORKDIR /root/sbb_b
+ RUN apk add --update --no-cache p7zip
+ # Install requirements
+ RUN pip3 install --no-cache-dir -r requirements.txt
+ ENV PATH="/home/sbb_b/bin:$PATH"
+ CMD ["python3","-m","sbb_b"]
